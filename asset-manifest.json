@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/brikow-assignment/static/css/main.bdb4e2b8.css",
+    "main.js": "/brikow-assignment/static/js/main.f325d5ae.js",
+    "static/js/787.2cbed43a.chunk.js": "/brikow-assignment/static/js/787.2cbed43a.chunk.js",
+    "static/media/avatar-5.jpg": "/brikow-assignment/static/media/avatar-5.4b10f579d39edd7a9f5c.jpg",
+    "static/media/invoice-widget.png": "/brikow-assignment/static/media/invoice-widget.0284de2b73f05c16e48b.png",
+    "static/media/map.png": "/brikow-assignment/static/media/map.88e4a792d3cfb4839f8c.png",
+    "static/media/avatar-2.jpg": "/brikow-assignment/static/media/avatar-2.f4fa3aef6955e50df831.jpg",
+    "static/media/flag.svg": "/brikow-assignment/static/media/flag.32c036a7edc8a389a763a3782960d0d5.svg",
+    "static/media/avatar-1.jpg": "/brikow-assignment/static/media/avatar-1.44217650159c9165335b.jpg",
+    "static/media/avatar-4.jpg": "/brikow-assignment/static/media/avatar-4.ebcb740a6b52fde79631.jpg",
+    "static/media/avatar-6.jpg": "/brikow-assignment/static/media/avatar-6.5f6801286737fe727cbd.jpg",
+    "static/media/avatar-3.jpg": "/brikow-assignment/static/media/avatar-3.108c321e3c933567c7c6.jpg",
+    "static/media/avatar-7.jpg": "/brikow-assignment/static/media/avatar-7.9d4c1545cc20f7a2a323.jpg",
+    "static/media/spain.svg": "/brikow-assignment/static/media/spain.68c97fa488639a7f161d94486a174ec7.svg",
+    "static/media/logo.svg": "/brikow-assignment/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/brikow-assignment/index.html",
+    "static/media/russia.svg": "/brikow-assignment/static/media/russia.dab7de53f4193ccb56b8a637319050a5.svg",
+    "static/media/italy.svg": "/brikow-assignment/static/media/italy.96c06173190305215ea1ed2767e76cfe.svg",
+    "static/media/french.svg": "/brikow-assignment/static/media/french.3d612e34ed7000075247e5dac52a7185.svg",
+    "static/media/ae.svg": "/brikow-assignment/static/media/ae.e982ce1a46db65259241bb5b37266864.svg",
+    "main.bdb4e2b8.css.map": "/brikow-assignment/static/css/main.bdb4e2b8.css.map",
+    "main.f325d5ae.js.map": "/brikow-assignment/static/js/main.f325d5ae.js.map",
+    "787.2cbed43a.chunk.js.map": "/brikow-assignment/static/js/787.2cbed43a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bdb4e2b8.css",
+    "static/js/main.f325d5ae.js"
+  ]
+}
