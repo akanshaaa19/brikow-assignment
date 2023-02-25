@@ -1,0 +1,39 @@
+.tag{
+    padding: 0.4rem;
+}
+
+.blue{
+    background-color: rgb(80,176,243);
+    color: #fff;
+
+}
+
+.red{
+    background-color: rgb(237, 67, 67);
+    color: #fff;
+}
+
+.purple{
+    color: #934fb0 !important; 
+    background-color: rgba(147,79,176,.1);
+}
+
+.softRed{
+    color: #ed4343 !important;
+    background-color: rgba(237,67,67,.1);
+}
+
+.yellow{
+    color: #febd49;
+    background-color: rgba(254,189,73,.1);
+}
+
+.softBlue{
+    color: #50b0f3;
+    background-color: rgba(80,176,243,.1);
+}
+
+.green{
+    color: white;
+    background-color: #438a7a;
+}
