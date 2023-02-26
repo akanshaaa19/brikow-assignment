@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
+import SubMenu from "./SubMenu";
 
 function SidebarComponent(props) {
   const [dropdown, setDropdown] = useState(false);
@@ -25,76 +26,7 @@ function SidebarComponent(props) {
                 <p className="text-base">{item.name}</p>
               </a>
             ) : (
-              <>
-                <div
-                  className="py-3 px-6 flex flex-col items-center text-[#5d6064] justify-between"
-                  onClick={() => {
-                    setDropdown(!dropdown);
-                  }}
-                >
-                  <button
-                    class=" btn-toggle align-items-center rounded flex items-center justify-between w-full cursor-pointer"
-                    data-bs-toggle="collapse"
-                    data-bs-target={`#${item.id}`}
-                    aria-expanded="true"
-                  >
-                    <span className="flex flex-row">
-                      <span className="mr-2">{item.icon}</span>
-                      <p className="text-base">{item.name}</p>
-                    </span>
-                    {item.dropdown.length !== 0 && (
-                      <i class="las la-angle-right text-sm"></i>
-                    )}
-                  </button>
-                  <div  class="collapse show" id={item.id} >
-                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                      {item.dropdown.map((listitem) => {
-                        return (
-                          <li className="w-full text-base py-2 px-3">
-                            {listitem}
-                          </li>
-                        );
-                      })}
-                    </ul>
-                  </div>
-                </div>
-                {/* <div
-                  className="py-3 px-6 flex flex-col items-center text-[#5d6064] justify-between"
-                  onClick={() => {
-                    setDropdown(!dropdown);
-                  }}
-                >
-                  <div
-                    data-bs-toggle="collapse"
-                    href="#collapseExample"
-                    role="button"
-                    aria-expanded="false"
-                    aria-controls="collapseExample"
-                    className="flex items-center justify-between w-full cursor-pointer"
-                  >
-                    <span className="flex flex-row">
-                      <span className="mr-2">{item.icon}</span>
-                      <p className="text-base">{item.name}</p>
-                    </span>
-                    {item.dropdown.length !== 0 && (
-                      <i class="las la-angle-right text-sm"></i>
-                    )}
-                  </div>
-                  {dropdown && (
-                    <div className="dropdown-menuu">
-                      <ul className="pl-">
-                        {item.dropdown.map((listitem) => {
-                          return (
-                            <li className="w-full text-base py-2 px-3">
-                              {listitem}
-                            </li>
-                          );
-                        })}
-                      </ul>
-                    </div>
-                  )}
-                </div> */}
-              </>
+              <SubMenu component={item} />
             )}
           </div>
         );

@@ -62,11 +62,11 @@ input:focus {
   font-size: 0.875rem !important;
 }
 
-.dropdown-menuu ul {
+.submenu ul {
   list-style-type: circle;
 }
 
-.dropdown-menuu ul li:hover {
+.submenu ul li:hover {
   list-style-type: disc;
   color: #438a7a;
 }
